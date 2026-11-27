@@ -27,4 +27,4 @@
 
 ## 📫 交流
 
-欢迎通过 issue 或 discussion 讨论数学、Lean 与形式化相关的话题。
+欢迎通过 **Pull Request** 或 [Discussions](https://github.com/Apecool/Apecool/discussions) 交流数学、Lean 与形式化相关的话题。

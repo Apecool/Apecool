@@ -19,7 +19,7 @@
 
 ## 🗂 历史项目（2023–2024 学习档案）
 
-早期手写的前后端练习，记录技术栈的学习过程，均已停止维护：
+早期的前后端练习项目，均已停止维护：
 
 - **全栈 / 认证**：`basicblog`（Express + Prisma + React）、`basicphoto`（图片标注）、`memberonly`（Passport + bcrypt）、`fileuploader`、`messageboard`
 - **前端**：`cvpage`（React + Vite）、`sketch`（原生 HTML/CSS/JS）

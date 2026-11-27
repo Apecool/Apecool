@@ -1,30 +1,39 @@
 # 👋 Hi, I'm Apecool
 
-独立开发者，目前的主线是 **数学形式化**：把数学概念在四条主线（公理化 / 分析 / 代数 / 逻辑）上定位，再用 Lean 4 + Mathlib 把证明交给内核检查。
+Independent developer. My main track is **mathematical formalization**: locating concepts on four axes (axioms / analysis / algebra / logic), then letting the Lean 4 + Mathlib kernel check the proofs.
+
+> "It compiles" does not mean "the proof is right" — the kernel is the final judge.
+
+<details>
+<summary>中文版 / Chinese</summary>
+
+独立开发者，目前的主线是**数学形式化**：把数学概念在四条主线（公理化 / 分析 / 代数 / 逻辑）上定位，再用 Lean 4 + Mathlib 把证明交给内核检查。
 
 > 「能编译」不等于「证明对了」——内核是最终裁判。
 
-## 🔧 现在在做什么
+</details>
 
-| 项目 | 状态 | 说明 |
+## 🔧 Currently working on
+
+| Project | Status | What it is |
 |---|---|---|
-| [math-journey](https://github.com/Apecool/math-journey) | 🚧 2026-11 启动 · 重点项目 | 数学视野拓展 × Lean 形式化。坐标系方法：每个新概念都要回答「它在这张图的哪里」。 |
-| [knowledge-base-assistant](https://github.com/Apecool/knowledge-base-assistant) | 🔄 持续更新 | FastAPI + Vue 3 的 RAG 知识管理应用：多格式文档上传、语义搜索、多轮对话、SSE 流式输出。 |
+| [math-journey](https://github.com/Apecool/math-journey) | 🚧 Started 2026-11 · main focus | Mathematical vision × Lean formalization. Every new concept must answer "where does it sit on this map?". |
+| [knowledge-base-assistant](https://github.com/Apecool/knowledge-base-assistant) | 🔄 Ongoing | RAG knowledge app (FastAPI + Vue 3): multi-format document upload, semantic search, multi-turn chat, SSE streaming. |
 
-## 📐 方法与原则
+## 📐 Method & principles
 
-- **内核最终裁判**：形式化以 kernel 检查为准，禁 sorry-laundering，语义逐行自查
-- 数学史 → Lean 陈述 → 证明，宁可慢，不要「能编译但跑偏」
-- 长期目标：mathlib merged PR；理解 AI 正在如何改变数学的生产方式
+- **Kernel is the final judge**: no sorry-laundering, semantics checked line by line
+- Math history → Lean statement → proof; slow is fine, "compiles but drifts" is not
+- Long-term goal: merged PRs to mathlib; understanding how AI changes the way mathematics is produced
 
-## 🗂 历史项目（2023–2024 学习档案）
+## 🗂 Older projects (2023–2024, unmaintained)
 
-早期的前后端练习项目，均已停止维护：
+Early full-stack practice projects, archived for reference only:
 
-- **全栈 / 认证**：`basicblog`（Express + Prisma + React）、`basicphoto`（图片标注）、`memberonly`（Passport + bcrypt）、`fileuploader`、`messageboard`
-- **前端**：`cvpage`（React + Vite）、`sketch`（原生 HTML/CSS/JS）
-- **AI 应用**：`deepseek-chat-app`（Flask + DeepSeek API）
+- **Backend / auth**: `basicblog` (Express + Prisma + React), `basicphoto` (image annotation), `memberonly` (Passport + bcrypt), `fileuploader`, `messageboard`
+- **Frontend**: `cvpage` (React + Vite)
+- **AI app**: `deepseek-chat-app` (Flask + DeepSeek API)
 
-## 📫 交流
+## 📫 Contact
 
-欢迎通过 **Pull Request** 或 [Discussions](https://github.com/Apecool/Apecool/discussions) 交流数学、Lean 与形式化相关的话题。
+Open a **Pull Request** or [Discussions](https://github.com/Apecool/Apecool/discussions) to talk math, Lean, and formalization.
